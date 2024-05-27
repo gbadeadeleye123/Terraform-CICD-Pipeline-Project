@@ -2,7 +2,7 @@
 variable "vpc_id" {
   type        = string
   description = "provide vpc id"
-  default = "vpc-08b0c56cb29df4c44"
+  default = "vpc-0006827ca338f4865"
 }
 
 # EC2 Web Server Variables
@@ -21,13 +21,13 @@ variable "instance_type" {
 variable "subnet_id" {
   type        = string
   description = "provide subnet id from your Default VPC"
-  default = "subnet-054b0151e579484e5"
+  default = "subnet-0672e46166789b34a"
 }
 
 variable "key_name" {
   type        = string
   description = "provide an existing keypair"
-  default = "mbandiofficial-nova"
+  default = "jjtech"
 }
 
 variable "user_data" {
